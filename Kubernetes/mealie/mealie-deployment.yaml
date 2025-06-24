@@ -21,3 +21,4 @@ spec:
           name: mealie
           ports:
             - containerPort: 9000
+
