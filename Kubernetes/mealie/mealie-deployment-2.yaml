@@ -1,0 +1,30 @@
+[?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;51r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[51;1H"/tmp/kubectl1.33.2-edit-2252319809.yaml" 71L, 2348B[1;1H[34m# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#[m
+[36mapiVersion[m[35m:[m apps/v1
+[36mkind[m[35m:[m Deployment
+[36mmetadata[m[35m:[m
+  [36mannotations[m[35m:[m
+    [36mdeployment.kubernetes.io/revision[m[35m:[m [31m"2"[m
+    [36mkubectl.kubernetes.io/last-applied-configuration[m[35m:[m |[11;7H[35m{[m[31m"apiVersion"[m[35m:[m[31m"apps/v1"[m,[31m"kind"[m[35m:[m[31m"Deployment"[m,[31m"metadata"[m[35m:{[m[31m"annotations"[m[35m:{}[m,[31m"creationTimestamp"[m[35m:[m[31mnull[m,[31m"labels"[m[35m:{[m[31m"app"[m[35m:[m[31m"mealie"[m[35m}[m,[31m"name"[m[35m:[m[31m"mealie"[m,[31m"namespace"[m[35m:[m[31m"mealie"[m[35m}[m,[31m"spec"[m[35m:{[m[31m"replicas"[m[35m:[m1,[31m"selector"[m[35m:{[m[31m"matchLaa[12;1Hbels"[m[35m:{[m[31m"app"[m[35m:[m[31m"mealie"[m[35m}}[m,[31m"template"[m[35m:{[m[31m"metadata"[m[35m:{[m[31m"labels"[m[35m:{[m[31m"app"[m[35m:[m[31m"mealie"[m[35m}}[m,[31m"spec"[m[35m:{[m[31m"containers"[m[35m:[{[m[31m"image"[m[35m:[m[31m"ghcr.io/mealie-recipes/mealie:latest"[m,[31m"name"[m[35m:[m[31m"mealie"[m,[31m"ports"[m[35m:[{[m[31m"containerPort"[m[35m:[m9000[35m}]}]}}}}[m
+  [36mcreationTimestamp[m[35m:[m [31m"2025-06-24T19:30:23Z"[m
+  [36mgeneration[m[35m:[m [31m2[m
+  [36mlabels[m[35m:[m
+    [36mapp[m[35m:[m mealie
+  [36mname[m[35m:[m mealie
+  [36mnamespace[m[35m:[m mealie
+  [36mresourceVersion[m[35m:[m [31m"9029"[m
+  [36muid[m[35m:[m 48608415-0431-4468-8e6e-361d32abd954
+[36mspec[m[35m:[m
+  [36mprogressDeadlineSeconds[m[35m:[m [31m600[m
+  [36mreplicas[m[35m:[m [31m1[m
+  [36mrevisionHistoryLimit[m[35m:[m [31m10[m
+  [36mselector[m[35m:[m
+    [36mmatchLabels[m[35m:[m[27;7H[36mapp[m[35m:[m mealie
+  [36mstrategy[m[35m:[m
+    [36mrollingUpdate[m[35m:[m[30;7H[36mmaxSurge[m[35m:[m 25%[31;7H[36mmaxUnavailable[m[35m:[m 25%
+    [36mtype[m[35m:[m RollingUpdate
+  [36mtemplate[m[35m:[m
+    [36mmetadata[m[35m:[m[35;7H[36mcreationTimestamp[m[35m:[m [31mnull[m[36;7H[36mlabels[m[35m:[m[37;9H[36mapp[m[35m:[m mealie
+    [36mspec[m[35m:[m[39;7H[36mcontainers[m[35m:[m[40;7H[38;5;130m- [m[36mimage[m[35m:[m ghcr.io/mealie-recipes/mealie:latest[41;9H[36mimagePullPolicy[m[35m:[m IfNotPresent[42;9H[36mname[m[35m:[m mealie[43;9H[36mports[m[35m:[m[44;9H[38;5;130m- [m[36mcontainerPort[m[35m:[m [31m9000[m[45;11H[36mprotocol[m[35m:[m TCP[46;9H[36mresources[m[35m:[m [35m{}[m[47;9H[36mterminationMessagePath[m[35m:[m /dev/termination-log[48;9H[36mterminationMessagePolicy[m[35m:[m File[49;7H[36mdnsPolicy[m[35m:[m ClusterFirst[50;7H[36mrestartPolicy[m[35m:[m Always[51;192H1,1[11CTop[1;1H[?25h[?4m[51;1H[?2004l[>4;m[23;2t[23;1t[51;1H[K[51;1H[?1004l[?2004l[?1l>[?1049l[23;0;0t[>4;m
